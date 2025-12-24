@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Welcome name="Prathmesh" />
       <Welcome />
       <div>
         <a href="https://vite.dev" target="_blank">
