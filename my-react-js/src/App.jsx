@@ -4,6 +4,7 @@ import './App.css'
 import Welcome from './components/Welcome.jsx';
 import Counter from './components/Counter.jsx';
 import NameInput from './components/NameInput.jsx';
+import TodoList from './components/TodoList.jsx';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
         <NameInput />
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        <TodoList />
       </p>
     </>
   )
